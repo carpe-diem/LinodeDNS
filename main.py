@@ -11,7 +11,7 @@ except Exception as excp:
 
 from PyQt4 import QtGui, QtCore
 
-import design
+from ui import design
 
 
 config = configparser.ConfigParser()
@@ -143,7 +143,7 @@ class LinodeAPIApp(QtGui.QMainWindow, design.Ui_MainWindow):
         self.initUi()
 
         self.icon = QtGui.QSystemTrayIcon()
-        self.icon.setIcon(QtGui.QIcon('logo.png') )
+        self.icon.setIcon(QtGui.QIcon('images/logo.png') )
         self.icon.show()
 
         QtCore.QObject.connect(
