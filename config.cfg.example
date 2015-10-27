@@ -1,0 +1,10 @@
+[Settings]
+minutes = 15
+ipurl = http://212.71.250.46/ip.php
+
+[Linode]
+key = 
+domain = 
+record = 
+lastip = 
+
