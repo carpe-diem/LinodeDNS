@@ -59,3 +59,4 @@ target/
 #APP
 config.cfg
 ui/*.py
+*.swp
